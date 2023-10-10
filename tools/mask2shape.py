@@ -26,7 +26,7 @@ except ImportError:
     import ogr
     import osr
 
-from utils import Raster, save_geotiff, time_it
+from .utils import Raster, save_geotiff, time_it
 
 
 def _mask2tif(mask_path, tmp_path, proj, geot):
